@@ -1,5 +1,3 @@
-const sum = require('./basic')
-
 describe("truthy or falsy", () => {
     it('null', () => {
         expect(null).toBeFalsy()
